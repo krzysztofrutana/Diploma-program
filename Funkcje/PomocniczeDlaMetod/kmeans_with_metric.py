@@ -8,11 +8,12 @@ from __future__ import division
 import random
 import numpy as np
 from pandas.core.common import random_state
-from scipy._lib.six import xrange
+
 from scipy.spatial.distance import cdist  # $scipy/spatial/distance.py
     # http://docs.scipy.org/doc/scipy/reference/spatial.html
 from scipy.sparse import issparse  # $scipy/sparse/csr.py
 from sklearn.cluster.k_means_ import _init_centroids
+from sklearn.externals._arff import xrange
 from sklearn.utils import check_random_state
 from sklearn.utils.extmath import row_norms
 
