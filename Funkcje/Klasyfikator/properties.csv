@@ -1,0 +1,7 @@
+przeznaczenenie,criterion,max_depth,random_state,min_samples_leaf,min_samples_split,splitter
+Silhouette_klasyfikacja,gini,2,0,14,2,best
+Silhouette_regresja,mse,2,0,5,2,random
+DaviesBouldin_klasyfikacja,entropy,2,0,1,2,best
+DaviesBouldin_regresja,mae,3,0,8,2,random
+CalinskiHarabasz_klasyfikacja,gini,9,0,3,7,random
+CalinskiHarabasz_regresja,mse,5,0,3,10,best
